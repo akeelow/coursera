@@ -1,0 +1,12 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+}
+.item {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: darkcyan;
+    text-align: center;
+    padding: 10px;
+}
