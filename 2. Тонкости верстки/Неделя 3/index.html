@@ -1,18 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Бабуленькины котятки</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div class="wrapper">
-        <div class="item">item 1</div>
-        <div class="item">item 2</div>
-        <div class="item">item 3</div>
-        <div class="item">item 4</div>
-    </div>
+<body class="body">
+    <header class="header">
+        <h1>Бабуленькины котятки</h1>
+    </header>
+    <section>
+        <div class="wrap">
+            <input class="input__radio-abi input__radio" type="radio" name="breed" id="abi">
+            <input class="input__radio-bri input__radio" type="radio" name="breed" id="bri">
+            <input class="input__radio-rus input__radio" type="radio" name="breed" id="rus">
+            <input class="input__radio-sia input__radio" type="radio" name="breed" id="sia">
+            <div class="side__left">
+                <nav class="menu">
+                    <ul>
+                        <li><label class="label__abi menu__item" for="abi">Абиссинская</label></li>
+                        <li><label class="label__bri menu__item" for="bri">Британская</label></li>
+                        <li><label class="label__rus menu__item" for="rus">Русская голубая</label></li>
+                        <li><label class="label__sia menu__item" for="sia">Сиамская</label></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="content">
+                <div class="item sia"><img src="images/sia3.jpg"></div>
+                <div class="item abi"><img src="images/abi1.jpg"></div>
+                <div class="item bri"><img src="images/bri3.jpg"></div>
+                <div class="item rus"><img src="images/rus3.jpg"></div>
+                <div class="item abi"><img src="images/abi2.jpg"></div>
+                <div class="item bri"><img src="images/bri4.jpg"></div>
+                <div class="item rus"><img src="images/rus2.jpg"></div>
+                <div class="item abi"><img src="images/abi4.jpg"></div>
+                <div class="item sia"><img src="images/sia2.jpg"></div>
+                <div class="item abi"><img src="images/abi3.jpg"></div>
+                <div class="item bri"><img src="images/bri1.jpg"></div>
+                <div class="item bri"><img src="images/bri2.jpg"></div>
+                <div class="item rus"><img src="images/rus1.jpg"></div>
+                <div class="item sia"><img src="images/sia1.jpg"></div>
+                <div class="item rus"><img src="images/rus4.jpg"></div>
+                <div class="item sia"><img src="images/sia4.jpg"></div>
+            </div>
+            <div class="side__right">
+                <label for="utu">test</label>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>© OOO Бабуленькины котятки, 2021</p>
+        <p class="adress">Наш адрес: улица Котовая, д. 5</p>
+    </footer>
 </body>
 </html>
