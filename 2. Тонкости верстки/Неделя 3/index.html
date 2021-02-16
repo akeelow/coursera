@@ -11,7 +11,7 @@
     <header class="header">
         <h1>Бабуленькины котятки</h1>
     </header>
-    <section>
+    <section class="section">
         <div class="wrap">
             <input class="input__radio-abi input__radio" type="radio" name="breed" id="abi">
             <input class="input__radio-bri input__radio" type="radio" name="breed" id="bri">
@@ -28,26 +28,90 @@
                 </nav>
             </div>
             <div class="content">
-                <div class="item sia"><img src="images/sia3.jpg"></div>
-                <div class="item abi"><img src="images/abi1.jpg"></div>
-                <div class="item bri"><img src="images/bri3.jpg"></div>
-                <div class="item rus"><img src="images/rus3.jpg"></div>
-                <div class="item abi"><img src="images/abi2.jpg"></div>
-                <div class="item bri"><img src="images/bri4.jpg"></div>
-                <div class="item rus"><img src="images/rus2.jpg"></div>
-                <div class="item abi"><img src="images/abi4.jpg"></div>
-                <div class="item sia"><img src="images/sia2.jpg"></div>
-                <div class="item abi"><img src="images/abi3.jpg"></div>
-                <div class="item bri"><img src="images/bri1.jpg"></div>
-                <div class="item bri"><img src="images/bri2.jpg"></div>
-                <div class="item rus"><img src="images/rus1.jpg"></div>
-                <div class="item sia"><img src="images/sia1.jpg"></div>
-                <div class="item rus"><img src="images/rus4.jpg"></div>
-                <div class="item sia"><img src="images/sia4.jpg"></div>
+
+                <div class="item sia">
+                    <img src="images/sia3.jpg">
+                    <p class="cat__name">Муся, 7 дней</p>
+                </div>
+
+                <div class="item abi">
+                    <img src="images/abi1.jpg">
+                    <p class="cat__name">Гаруся, 7 дней</p>
+                </div>
+
+                <div class="item bri">
+                    <img src="images/bri3.jpg">
+                    <p class="cat__name">Труся, 7 дней</p>
+                </div>
+                <div class="item rus">
+                    <img src="images/rus3.jpg">
+                    <p class="cat__name">Клюся, 1 год</p>
+                </div>
+                <div class="item abi">
+                    <img src="images/abi2.jpg">
+                    <p class="cat__name">Хрюся, 7 месяцев</p>
+                </div>
+                <div class="item bri">
+                    <img src="images/bri4.jpg">
+                    <p class="cat__name">Пруся, 2 года</p>
+                </div>
+                <div class="item rus">
+                    <img src="images/rus2.jpg">
+                    <p class="cat__name">Руся, 5 лет</p>
+                </div>
+                <div class="item abi">
+                    <img src="images/abi4.jpg">
+                    <p class="cat__name">Карапуся, 7 дней</p>
+                </div>
+                <div class="item sia">
+                    <img src="images/sia2.jpg">
+                    <p class="cat__name">Троль, 7 дней</p>
+                </div>
+                <div class="item abi">
+                    <img src="images/abi3.jpg">
+                    <p class="cat__name">Муся, 7 дней</p>
+                </div>
             </div>
             <div class="side__right">
-                <label for="utu">test</label>
+                <div class="side__container">
+                <div class="side_head">Рейтинг</div>
+                <div class="input__sort"></div>
+                    <label for="sort">по убыванию</label>
+                    <input class="DESC" type="checkbox" name="sort" id="sort">
+                
+                
+                <div class="rating__bars">
+                    <div class="bar bar__abi">
+                        <p class="bar__name">Абиссинская</p>
+                        <div class="bar__progress">
+                            <div class="bar__stroke-abi"></div>
+                        </div>
+                        <p class="bar__count">9</p>
+                    </div>
+                    <div class="bar bar__bri">
+                        <p class="bar__name">Британская</p>
+                        <div class="bar__progress">
+                            <div class="bar__stroke-bri"></div>
+                        </div>
+                        <p class="bar__count">8</p>
+                    </div>
+                    <div class="bar bar__rus">
+                        <p class="bar__name">Русская голубая</p>
+                        <div class="bar__progress">
+                            <div class="bar__stroke-rus"></div>
+                        </div>
+                        <p class="bar__count">10</p>
+                    </div>
+                    <div class="bar bar__sia">
+                        <p class="bar__name">Сиамская</p>
+                        <div class="bar__progress">
+                            <div class="bar__stroke-sia"></div>
+                        </div>
+                        <p class="bar__count">4</p>
+                    </div>
+                </div>
             </div>
+        </div>
         </div>
     </section>
     <footer class="footer">
