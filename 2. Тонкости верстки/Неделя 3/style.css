@@ -15,6 +15,12 @@ body {
     display: flex;
     flex-direction: column;
 }
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    min-width: 800px;
+    margin: 0 auto;
+}
 .header {
     text-align: center;
     flex: 0 0 auto;
@@ -32,6 +38,8 @@ body {
 }
 .side__container {
     background-color: #d9d9d9;
+    
+    padding: 3px 20px;
 }
 .side__right {
     flex: 1;
@@ -87,8 +95,8 @@ body {
     padding: 0 1%;
     display: grid;
     gap: 5px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-rows: 250px;
+    grid-template-columns: 33% 33% 33%;
+    grid-auto-rows: 16%;
 }
 .item {
     background-color: #fff;
@@ -147,7 +155,6 @@ body {
 
 /* SIDEBAR RIGHT */
 .side__right {
-    padding: 3px 20px;
     text-align: right;
     font-size: 12px; 
 }
