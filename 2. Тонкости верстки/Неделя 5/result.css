@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.body {
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.page {
+    width: 100%;
+    max-width: 1021px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    margin: 0 18px;
+    background-color: #f6f5f3;
+}
+
+/* HEADER */
+.header {
+    position: relative;
+    height: 130px;
+}
+.header__logo {
+    position: absolute;
+    top: 0;
+    right: 75px;
+    width: 167px;
+}
+
+/* CAARS */
+.cars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow__left {
+}
+
+.arrow {
+    margin: 30px 40px 0;
+    position: relative;
+    content: "";
+    background-color: #ffdb4a;
+    width: 58px;
+    height: 58px;
+    border-radius: 29px;
+    box-shadow: 1px 1px 1px #ff5a00;
+}
+.arrow__icon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.car__content {
+    width: 640px;
+    margin-top: 25px;
+}
+.title__car {
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 300;
+    position: relative;
+    padding-left: 10px;
+    margin-bottom: 40px;
+}
+.title__car::before {
+    content: "«";
+    position: absolute;
+    margin-left: -20px;
+}
